@@ -1,0 +1,46 @@
+---
+canvas: "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Zeil",
+            "purpose": "commenting",
+            "creator": {
+                "id": "robfeen",
+                "name": "robfeen"
+            },
+            "created": "2022-05-20T07:54:01.649Z",
+            "modified": "2022-05-20T07:54:02.175Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "onderdeel",
+            "purpose": "tagging",
+            "creator": {
+                "id": "robfeen",
+                "name": "robfeen"
+            },
+            "created": "2022-05-20T07:54:05.395Z",
+            "modified": "2022-05-20T07:54:06.462Z"
+        }
+    ],
+    "target": {
+        "source": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=64278.984375,163.79144287109375,632.4140625,387.00201416015625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/fullBayeux/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "938cdef8-e62b-47e5-9183-e1976c99cc2d.json",
+    "motivation": "commenting"
+}
